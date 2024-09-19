@@ -79,3 +79,5 @@ const expression6 = !(a || b);
 console.log(expression6);// --> false
 const expression7 = a && a;
 console.log(expression7);// --> true
+
+//Solved lab
