@@ -66,15 +66,16 @@ const b = false;
 
 // Try and guess the output of the below expressions first and write your answers down:
 const expression1 = a && b;
-
+console.log(expression1);// --> false
 const expression2 = a || b;
-
+console.log(expression2);// --> true
 const expression3 = !a && b;
-
+console.log(expression3);// --> false
 const expression4 = !(a && b);
-
+console.log(expression4);// --> true
 const expression5 = !a || !b;
-
+console.log(expression5);// --> true
 const expression6 = !(a || b);
-
+console.log(expression6);// --> false
 const expression7 = a && a;
+console.log(expression7);// --> true
